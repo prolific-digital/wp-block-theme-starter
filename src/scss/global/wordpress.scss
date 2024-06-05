@@ -1,0 +1,39 @@
+.wp-caption {
+	position: relative;
+}
+
+.wp-caption-text {
+	position: relative;
+}
+
+.sticky {
+	position: relative;
+}
+
+.gallery-caption {
+	position: relative;
+}
+
+.bypostauthor {
+	position: relative;
+}
+
+.alignright {
+	float: inherit;
+	text-align: right;
+}
+
+.alignleft {
+	float: inherit;
+	text-align: left;
+}
+
+.aligncenter {
+	text-align: center;
+}
+
+.block {
+	.components-resizable-box__handle {
+		display: none;
+	}
+}

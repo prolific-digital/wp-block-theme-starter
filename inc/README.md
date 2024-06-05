@@ -1,0 +1,1 @@
+`inc`. This is a directory that contains files that are imported via the call to `require_once` call in `functions.php`. It’s meant to hold files that contribute to the theme, but aren’t part of the core theme hooks.

@@ -1,0 +1,22 @@
+{
+	"extends": "@wordpress/stylelint-config",
+	"rules": {
+		"indentation": "tab",
+		"string-quotes": "single",
+		"at-rule-empty-line-before": null,
+		"selector-class-pattern": null,
+		"rule-empty-line-before": [
+			"always",
+			{
+				"except": ["first-nested"],
+				"ignore": ["after-comment"]
+			}
+		],
+		"at-rule-no-unknown": [
+			true,
+			{
+				"ignoreAtRules": ["mixin", "include", "if", "else", "for", "each", "while", "function", "return", "extend", "at-root", "debug", "warn", "error"]
+			}
+		]
+	}
+}

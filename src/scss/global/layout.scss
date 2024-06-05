@@ -1,0 +1,25 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+.smooth-scroll {
+	scroll-behavior: smooth;
+}
+
+.visually-hidden,
+.visually-hide-label,
+.visually-hide-text,
+.screen-reader-text {
+	clip: rect(1px, 1px, 1px, 1px); /* Hide the element visually */
+	position: absolute !important;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+	white-space: nowrap; /* Ensure text doesn't wrap */
+}
